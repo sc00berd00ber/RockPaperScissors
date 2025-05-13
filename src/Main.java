@@ -9,7 +9,7 @@ public class Main {
 
             String[] rps = {"rock", "paper", "scissors"};
             String cpu = rps[random.nextInt(3)];
-            System.out.println("\nPick rock, paper, or scissors: \n");
+            System.out.println("\nChoose rock, paper, or scissors: \n");
             System.out.println("Press 'X' to exit program\n");
             String player = in.nextLine().toLowerCase().trim();
             if (player.equalsIgnoreCase("x")){
